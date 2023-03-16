@@ -33,6 +33,7 @@ public class Main {
                     System.out.println("Ingresar saldo Cordobas ");
                     saldoCordobas = teclado.nextDouble();
                     System.out.println("Saldo Cordobas :"+ saldoCordobas);
+                    System.out.println("Saldo");
                     break;
                 case 5:
                     System.out.println("Ingresar saldo Dolares ");
