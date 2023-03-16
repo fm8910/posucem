@@ -41,7 +41,7 @@ public class Main {
                     break;
                 case 4:
                     System.out.println(" Ingrese la base ");
-
+                    CreditoCordoba creditoCordoba= new CreditoCordoba();
                     break;
                 case 3:
                     break;
