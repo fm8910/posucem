@@ -44,6 +44,11 @@ public class Main {
 
                     break;
                 case 3:
+                    System.out.println(" Ingrese saldo Dolares");
+                    saldoDolares = teclado.nextDouble();
+                    System.out.println(" Ingrese el monto en Dolares");
+                    monto = teclado.nextDouble();
+                    System.out.println(" SU saldo total es " + monto);
                     break;
                 case 2:
                     System.out.println(" Aplicar Debito Cordobas ");
