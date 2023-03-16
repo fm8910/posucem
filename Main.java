@@ -40,16 +40,24 @@ public class Main {
                     System.out.println("Saldo Cordobas :"+ saldoDolares);
                     break;
                 case 4:
-                    System.out.println(" Ingrese la base ");
-
+                    System.out.println(" Realizar Debito Dolares ");
+                    monto = teclado.nextDouble();
+                    System.out.println(" Monto Debito Dolares " + monto);
                     break;
                 case 3:
+                    System.out.println(" Realizar Credito Dolares ");
+                    monto = teclado.nextDouble();
+                    System.out.println(" Monto Credito Dolares " + monto);
                     break;
                 case 2:
-                    System.out.println(" Aplicar Debito Cordobas ");
+                    System.out.println(" Realizar Debito Cordobas ");
+                    monto = teclado.nextDouble();
+                    System.out.println(" Monto Credito Dolares " + monto);
                     break;
                 case 1:
-
+                    System.out.println(" Realizar Credito Cordobas ");
+                    monto = teclado.nextDouble();
+                    System.out.println(" Monto Credito Dolares " + monto);
                     break;
 
             }
