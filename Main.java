@@ -5,10 +5,10 @@ public class Main {
 
 
 
-    public static void main(String ...args){
+    public static void main(String ...args) throws Exception {
 
-        Double saldoCordobas;
-        Double saldoDolares;
+        Double saldoCordobas ;
+        Double saldoDolares ;
         Double monto;
 
         Scanner teclado = new Scanner(System.in);
@@ -40,8 +40,9 @@ public class Main {
                     System.out.println("Saldo Cordobas :"+ saldoDolares);
                     break;
                 case 4:
-                    System.out.println(" Ingrese la base ");
-
+                    System.out.print("Ingrese el monto a retirar == ");
+                    saldoDolares = teclado.nextDouble();
+                    DebitoDolares.getDebito(15000.00, saldoDolares);
                     break;
                 case 3:
                     break;
