@@ -26,6 +26,7 @@ public class Main {
             System.out.println(" ======== 5. Ingresar saldo Cordobas ========= ");
             System.out.println(" ======== 6. Ingresar saldo Dolares ========= ");
             System.out.println(" _____________________________________________ ");
+            System.out.println(" _____________________________________________ ");
             System.out.println(" Ingrese una opcion ");
             opcion = teclado.nextInt();
             switch (opcion){
